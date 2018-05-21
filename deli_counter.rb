@@ -3,7 +3,7 @@ katz_deli = []
 def line(katz_deli)
   katz_deli_customers = []
   katz_deli.each.with_index(1) do | position, customers |
-  katz_deli_customers << "#{position. customers}"
+  katz_deli_customers << "#{position}. #{customers}"
 end
   if katz_deli == []
     puts "The line is currently empty."

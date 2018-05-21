@@ -1,7 +1,7 @@
 katz_deli = []
 
 def line(katz_deli)
-  katz_deli_customers = Array.new
+  katz_deli_customers = []
   katz_deli.each.with_index(1) do | name, place |
   katz_deli_customers << "#{place}. #{name}"
 end
